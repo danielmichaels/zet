@@ -19,6 +19,12 @@ So far [zet-cmd] can:
 In the future more commands will be added which make life easier. More helper commands to make
 piping data into Vim will be added in the future.
 
+Some example usages:
+
+Creating a GitHub.com search query with `zet q "search term"` would return:
+https://github.com/danielmichaels/zet/search?q=search+term
+
+
     #zettelkasten #golang #bonzai #rwxrob
 
 [rwxrob]: https://github.com/rwxrob
