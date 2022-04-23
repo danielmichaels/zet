@@ -1,4 +1,4 @@
-# Initial Zet
+# Initial Zettelkasten
 
 This marks the very first Zettelkasten entry in this repo. To do this I've created my own
 `Zet` tool called [zet-cmd] written in Golang. It uses [Bonzai] by [rwxrob] and is heavily
