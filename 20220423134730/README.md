@@ -26,4 +26,3 @@ piping data into Vim will be added in the future.
 [Bonzai]: https://github.com/rwxrob/bonzai
 [zet-cmd]: https://github.com/danielmichaels/zet-cmd
 
-
