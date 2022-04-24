@@ -18,6 +18,6 @@ A list of compatible operators when using `go install` or `go get`:
 - Comparison: `@>=2.1.4`
 - Latest: `@latest` (most common)
 
-    #golang #modules
+  #golang #modules
 
 
