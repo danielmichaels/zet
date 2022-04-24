@@ -24,6 +24,7 @@ Some example usages:
 Creating a GitHub.com search query with `zet q "search term"` would return:
 https://github.com/danielmichaels/zet/search?q=search+term
 
+Tags:
 
     #zettelkasten #golang #bonzai #rwxrob
 
