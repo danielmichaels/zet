@@ -1,4 +1,4 @@
-# ANZAC day COVID Bullshit
+# ANZAC Day COVID Bullshit
 
 ANZAC Day Dawn Service in Perth 2022 is invite only with a maximum 
 attendance capacity of 500 due to COVID restrictions.
