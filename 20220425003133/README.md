@@ -18,5 +18,5 @@ the ultimate sacrifice to pursue a few Shekels.
 
 Tags:
   
-  #covid #rant
+    #covid #rant
 
