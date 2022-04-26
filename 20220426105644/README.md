@@ -11,21 +11,21 @@ A few contrived and simple examples.
 
 ```vim
 :r !ds zet t golang | awk '{print $1} | head -n 1
-20220424000235
+# 20220424000235
 ```
 
 **Get unix time**
 
 ```vim
 :r !ds uniq second
-1650971184
+# 1650971184
 ```
 
 **Line count for this document**
 
 ```vim
 :r !wc -l #
-16 zet/20220426105644/README.md
+# 16 zet/20220426105644/README.md
 ```
 
 These are so basic its not funny but gaining an awareness is the start. Conscious thought when
