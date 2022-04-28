@@ -21,7 +21,7 @@ correctly encoded. This could then be used in `http.NewRequest`
 like so:
 
 ```golang
-// skip err handler for brevity
+// skip err handling for brevity
 req, _ := http.NewRequest("POST", u, nil)
 ```
 
