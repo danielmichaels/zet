@@ -25,9 +25,6 @@ like so:
 req, _ := http.NewRequest("POST", u, nil)
 ```
 
-
 Tags:
 
     #golang #web
-
-
