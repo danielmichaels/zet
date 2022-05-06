@@ -27,4 +27,8 @@ Released a number of small updates for my [zet-cmd] package. Really enjoying wor
 
 Worked nearly 50 hours this week on a big deployment. It's bloody frustrating working in the constrained environment I call work. Aside from that, it has been a good pairing with a much more senior engineer during the process.  
 
+Tags:
+
+    #whatgotdone
+
 [zet-cmd]: https://github.com/danielmichaels/zet-cmd
