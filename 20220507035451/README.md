@@ -36,6 +36,57 @@ Related:
 
 - [20220505024039 Mudmap sub-accounts](/20220505024039/)
 
+**Updates**
+
+I've added `app_metadata` to the JWT. This can now be plucked off on the 
+backend.
+
+Its possible to use M2M API key to make changes to the Group, 
+Permissions and Roles of Users and Groups. However, the free-tier only
+gives you 1000 calls per month (from what I can tell)
+
+API Docs: https://auth0.com/docs/api/authorization-extension
+Getting a token: https://auth0.com/docs/api/authorization-extension?shell#get-an-access-token
+
+Some calls examples:
+
+```sh
+# get all groups
+curlie https://mudmap.au12.webtask.io/<URL>/api/groups -H "authorization: Bearer <TOKEN>"
+```
+Returns 
+
+```json
+{
+    "groups": [
+        {
+            "_id": "8931fb3a-8163-4c8a-8534-b5cc43381172",
+            "name": "Test-Group",
+            "description": "For Testing Only",
+            "members": [
+                "auth0|61de4f3e8e3c6000710b8c0d"
+            ],
+            "mappings": [
+
+            ]
+        },
+        {
+            "description": "test-description",
+            "name": "new-test",
+            "_id": "0fdf83fe-32db-463c-b362-4e29c0817781",
+            "mappings": [
+
+            ],
+            "members": [
+
+            ]
+        }
+    ],
+    "total": 2
+}
+```
+
+
 Tags:
 
     #mudmap #planning
