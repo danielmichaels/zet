@@ -27,7 +27,6 @@ A rough idea of what this change should achieve.
 
 This is a decent sized change with a few moving parts. I can possibly 
 remove the Auth0 lock-in but I see no good way of doing this without
-2022/05/07 14:47:23 file does not exist ""
 forcing a DB lookup for each request (check permission and group). If
 I use Auth0 I can hopefully keep it sync'd with the DB and embed that
 data in the `app_metadata` field of the token. A assumption I need to 
