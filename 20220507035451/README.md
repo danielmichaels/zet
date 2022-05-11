@@ -2,26 +2,26 @@
 
 A rough idea of what this change should achieve.
 
-- `groups` is has a collection of users
+- `organisation` is has a collection of users
 - `users` has a relation to `permissions`
-- `device` belong to `groups`, not `users`
-- Existing `users`'s must be attached to a `groups` (probably by creating a `groups` using the
+- `device` belong to `organisation`, not `users`
+- Existing `users`'s must be attached to a `organisation` (probably by creating a `organisation` using the
   `user.Name` field as `group.Name` and adding them as a `users` to that group)
-- `groups` owners can update `groups` info
+- `organisation` owners can update `organisation` info
 - `permissions` should be a Many-to-Many. `users` can have many `permissions` and the same
   permission can belong to many `users`.
-- Auth0 should also be aware of `users` and `groups`
+- Auth0 should also be aware of `users` and `organisation`
 - Auth0 should also be aware of permissions
 - Auth0 should place `permissions` within the token (if possible)
 - Updates to the `permisions` table must also be reflected in Auth0
-- Updates to the `groups` table must be reflected in Auth0 
+- Updates to the `organisation` table must be reflected in Auth0 
 
 **Next Steps**
 
 1. Test assumptions with Auth0's Authorization and Group tooling 
-2. Create `permissions` and `groups` table
-3. Update `users` table to have relation with `groups` 
-4. Create change `devices` relation from `users` to `groups`
+2. Create `permissions` and `organisation` table
+3. Update `users` table to have relation with `organisation` 
+4. Create change `devices` relation from `users` to `organisation`
 5. Write sync methods so that the DB and Auth0 remain in sync 
 6. Middleware for checking a user can access a device based on JWT token fields
 
@@ -42,7 +42,7 @@ I've added `app_metadata` to the JWT. This can now be plucked off on the
 backend.
 
 Its possible to use M2M API key to make changes to the Group, 
-Permissions and Roles of Users and Groups. However, the free-tier only
+Permissions and Roles of Users and organisation. However, the free-tier only
 gives you 1000 calls per month (from what I can tell)
 
 API Docs: https://auth0.com/docs/api/authorization-extension
