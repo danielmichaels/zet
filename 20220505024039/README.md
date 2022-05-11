@@ -1,4 +1,4 @@
-# Mudmap sub-accounts
+# Mudmap Org Permissions
 
 Mudmap must be able to provide user accounts under an account root.
 It must also have RBAC policies per-user. 
