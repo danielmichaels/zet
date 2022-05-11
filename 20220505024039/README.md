@@ -1,10 +1,15 @@
 # Mudmap Org Permissions
 
-Mudmap must be able to provide user accounts under an account root.
-It must also have RBAC policies per-user. 
+Mudmap must be able to provide user accounts under an account root. This
+account root will be called an `organisation`. All users will belong to
+an `organisation`.
+
+RBAC policies are applied per-user according to their level of access.
 
 As a general guide, a `root` account is created from which all accounts 
-for that company or group are then underneath.
+for that company or group are then underneath. This account is the 
+`organisation` owner for lack of better wording. It might be prudent to
+allow multiple `root` account holders.
 
 This means devices are attached to an account or at least an account user. Users
 associated to that user can see any device in the hierarchy. At the moment, only
