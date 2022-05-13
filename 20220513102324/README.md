@@ -42,3 +42,7 @@ still has really no idea of what I did day to day.
 [pr21]: https://github.com/danielmichaels/zet-cmd/pull/21
 [glamour]: https://github.com/charmbracelet/glamour
 [charmbracelet]: https://github.com/charmbracelet
+
+Tags:
+
+    #wgd
