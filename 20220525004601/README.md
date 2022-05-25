@@ -26,3 +26,7 @@ Apt packages:
 - curl
 - python3
 - npm, yarn, node
+
+Tags:
+
+    #ansible #development
