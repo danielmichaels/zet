@@ -47,6 +47,7 @@ Authentication and session management is up next
 - Landed a new lease, moving in at the end of the month. 
 - Bought a nice second hand car to replace our old one - makes getting to work a lot easier
 - Deployed my own [PicoShare](https://github.com/mtlynch/picoshare) instance at [share.danielms.site](https://share.danielms.site) using [fly](https://fly.io).
+- Published May's [retro](https://danielms.site/retrospectives/2022/retrospective-may-2022/)
 
 
 [instructions]: https://docs.mudmap.io/preparing-devices#ssh-setup-in-pfsense
