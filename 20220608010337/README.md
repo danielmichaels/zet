@@ -1,5 +1,27 @@
 # WGD Fri 2022-06-10
 
+## [Mudmap]
+
+Work continues with the multi-account setup. 
+
+- UI changes to the Settings page which is now broken into smaller subsections:
+  - User
+  - Organisation
+  - Billing
+  - Membership
+
+Had some user reported errors which I suspect are being caused by `sshguard` being triggered.
+`sshguard`, as it sounds, is an application which blacklists SSH brute forcing.
+When users attempt to set their initial password wrong too many times,
+`sshguard` might be blacklisting Mudmap's server IP addresses. This
+can lead to unexplained errors, things work then suddenly don't but after
+a period time it resolves. I've added [instructions] to the the documentation
+with a fix, which entails whitelisting Mudmap's IP's from `sshguard`.
+
+Also, I realise that I am having issues with devices more often than I like
+but have no metrics on potential issues. I have started investigating a way
+to log device details so I can determine if issues are more common for
+certain setup's, say VM versus physical hardware. 
 
 ## [Storeman](https://github.com/danielmichaels/storeman)
 
@@ -25,3 +47,6 @@ Authentication and session management is up next
 - Landed a new lease, moving in at the end of the month. 
 - Bought a nice second hand car to replace our old one - makes getting to work a lot easier
 - Deployed my own [PicoShare](https://github.com/mtlynch/picoshare) instance at [share.danielms.site](https://share.danielms.site) using [fly](https://fly.io).
+
+
+[instructions]: https://docs.mudmap.io/preparing-devices#ssh-setup-in-pfsense
