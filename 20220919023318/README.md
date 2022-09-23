@@ -5,5 +5,15 @@
 
 - Refactoring Mudmap sql to use SQLc
   - It's a lot of work but so far is totaly worth it. Building new queries is so easy
+  - The only thing I don't like is how it handles `enums` in Postgres
 
+- Spent all week at work refactoring a series of Gitlab pipelines
+  - Nested `includes` are not a lot of fun. 
+
+- Started learning a bit more about gRPC and Protobuf's for a project
+  - It's a different way of thinking when you've mostly done REST using JSON.
+
+Tags:
+
+   #wgd
 
