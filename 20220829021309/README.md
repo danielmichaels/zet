@@ -14,4 +14,4 @@ openssl s_client -showcerts \
 
 Tags:
 
-   #openssl #ssl #argocd
+      #openssl #ssl #argocd
