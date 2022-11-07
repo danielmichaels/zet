@@ -37,6 +37,10 @@ fedora VM. The thing that fucking sucks is that windows hardcodes the
 Super/Win key shortcuts, such as WIN+L (and WIN+G for XBOX crap). This 
 totally breaks `shell`'s vim bindings. 
 
+**Update**: After nearly a month of running pop-os shell, I really love it.
+Its super simple and meets my needs. I do miss the switching between workspaces
+using the i3 number system but other than that, everything else *Just Works*.
+
 Tags:
 
     #linux #i3 #tiling #windows

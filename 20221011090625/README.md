@@ -26,6 +26,24 @@ date1             date2             amount      diff
 Using `JULIANDAY` and multiplying by `86400` returns the difference in
 seconds between `date1` and `date2`. 
 
+**Last seven days**
+```sql
+SELECT date1,date2,amount,ROUND((JULIANDAY(date2)-JULIANDAY(date1))*86400)
+AS diff
+FROM times
+WHERE date1 > datetime('now', '-7 days');
+```
+
+**Since start of the month**
+
+```sql
+SELECT date1,date2,amount,ROUND((JULIANDAY(date2)-JULIANDAY(date1))*86400)
+AS diff
+FROM times
+WHERE date1
+BETWEEN datetime('now', 'start of month') AND datetime('now', 'localtime');`
+```
+
 Tags:
 
     #sql
