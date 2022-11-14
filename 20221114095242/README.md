@@ -32,6 +32,12 @@ this does not seem to work.
 `systemctl restart inlets-pro` and see if the process has started correctly. It
 can take time to get the cert from Let's Encrypt.
 
+If this isn't working, try changing `/etc/default/inlets-pro` `ISSUER`
+from `prod` to `staging` and restart the service. This should connect
+and if so, you know its a Let's Encrypt issue. Potentially the IP has been
+temporarily rate limited, or the DNS entry does not exist so it cannot do
+a HTTP01 interrogation
+
 Tags:
 
     #inlets #tunnelling #troubleshooting
