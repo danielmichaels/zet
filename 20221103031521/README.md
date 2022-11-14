@@ -24,6 +24,15 @@ Some cheeky workout finishers:
 # rest 1 min
 ```
 
+## Cardio
+
+```shell
+# assault bike
+3 x 15s on / 15s off
+1min pedal
+# repeat 2-3 times
+```
+
 Tags:
 
     #kettlebell #workout #fitness
