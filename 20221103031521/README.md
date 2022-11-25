@@ -14,6 +14,14 @@ Some cheeky workout finishers:
 # rest 1 min
 ```
 
+```shell
+# 3 rounds
+100KG sled push @ 15m
+5 24" box jump
+5 Turkish Getup @ 5kn ea side
+# no rest
+```
+
 ## Strength
 
 ```shell
