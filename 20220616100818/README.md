@@ -1,4 +1,4 @@
-# Mudmap org/new user registration
+# Mudmap org and new user registration
 
 The rough registration process for adding a user to an `Organisation`.
 
