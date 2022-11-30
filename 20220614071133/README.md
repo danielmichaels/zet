@@ -1,4 +1,4 @@
-# Go database/sql tips
+# Go database and sql tips
 
 Note to self.
 
