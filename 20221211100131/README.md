@@ -94,6 +94,7 @@ so I just call it as I would any other `UnmarshalJSON` method call.
 
 ```go
 // used in another function
+r, _ := io.ReadAll(response.Body)
 var result ResponseTypes
 err = json.Unmarshal(r, &result)
 if err != nil {
