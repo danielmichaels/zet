@@ -12,9 +12,7 @@ def strtobool(value: str) -> bool:
   value = value.lower()
   if value in ("y", "yes", "on", "1", "true", "t"):
     return True
-  elif value in ("n", "no", "f", "false", "off", "0"):
-    retrun False
-  return ValueError(f"Invalid truth value: '{value}'")
+  return False
 ```
 
 Tags:
