@@ -1,4 +1,4 @@
-# Helm install/upgrade dynamically with Go
+# Helm upgrade dynamically with Go
 
 I wrote a python file to create `helm upgrade` commands dynamically 
 based on environment variables.
