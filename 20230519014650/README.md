@@ -31,4 +31,4 @@ The barebones are there but implementation needs some work.
 
 Tags:
 
-    #planing #openapi #go
+    #planning #openapi #go
