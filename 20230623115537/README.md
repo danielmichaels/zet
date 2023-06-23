@@ -12,6 +12,9 @@ randomly generated one.
 
 Its written in Go as well.
 
+Running it with `--debug` exposes a nice web UI as well. The only thing it lacks which I miss
+when compared to Ngrok is the ability to replay requests.
+
 Tags:
 
     #ngrok #tunnels #go
