@@ -17,7 +17,7 @@ go mod edit -replace "github.com/slack-go/slack=github.com/danielmichaels/slack@
 Doing this and a `go mod tidy` pulled in my branch and a minute later I'd proven my
 changes worked.
 
-Hopefully it gets merged sometime.
+Hopefully it gets merged sometime. [pr](https://github.com/slack-go/slack/pull/1242)
 
 Tags:
 
