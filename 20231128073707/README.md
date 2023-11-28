@@ -1,4 +1,4 @@
-# Looping over embedded structs in html/template
+# Looping over embedded structs in html template
 
 I am using the `slack-go` package and needed to pull out information from slacks Conversations
 API.
