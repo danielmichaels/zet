@@ -1,4 +1,4 @@
-# Why I love tidwall/gjson
+# Why I love gjson
 
 Easy parsing. That's it. That's the reason.
 
