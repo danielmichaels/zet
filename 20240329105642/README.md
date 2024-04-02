@@ -1,6 +1,5 @@
 # Home server notes
 
-
 Collecting issues that I hit along the way to bootstrapping my new proxmox homelab.
 
 **Paperless-ngx**
