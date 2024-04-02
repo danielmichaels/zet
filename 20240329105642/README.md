@@ -28,7 +28,7 @@ will always be overwritten by DHCP.
 
 Also make sure all services/VMs have a static IP so when the server reboots it doesn't give 
 new IPs rendering the proxy useless. Do this in the GUI and not in the service as it'll be
-overwritten by cloud-init
+overwritten by cloud-init.
 
 Tags
 
