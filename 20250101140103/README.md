@@ -18,6 +18,7 @@ This will work great but I'm still down about not figuring out Litestream!
 
 ref:
     - https://pocketbase.io
+    - https://github.com/pocketbase/pocketbase/discussions/3080
 
 Tags:
 
