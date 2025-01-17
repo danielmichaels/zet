@@ -21,4 +21,4 @@ when uploaded as a `zet`. WIP.
 
 Tags:
 
-    #mermaid #hugo
+#mermaid #hugo
