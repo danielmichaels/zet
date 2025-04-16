@@ -17,6 +17,27 @@ On a good note, rebuilding this machine showed me that my `zet` tool no longer b
 
 <https://github.com/danielmichaels/zet-cmd>
 
+Edit: adding apps that have similar ergonomics on Mac as they do linux:
+
+## Terminals 
+
+*Dropdown*:
+
+`iterm2` is (so far) the only terminal I can configure to have dropdown like functionality similar to `guake` or `ddterm` on Linux. This really 
+breaks my flow. I have f12 mapped to dropdown a terminal meaning I can keep my IDE/Browser whatever in view whilst I have terminal access. Iterm2 supports this 
+BUT if you use mac's desktop's it'll yank you from a fullscreen in desktop 3 back to desktop 1 if thats where you "main" desktop is. Iterm won't dropdown into 
+the current desktop - only the "main", typically desktop 1. I'm sure theres a mac way of explaining this but its a massively negative experience for my flow.
+
+*Terminal*:
+
+`wezterm` so far is the only terminal that supports Zellij `option` key (`alt` rebinding). 
+
+Terminals that do not support my workflow:
+
+- `ghostty`: doesn't work well with Zellij, no alt key alternative
+- `alacrity`: as above
+- `kitty`: as above 
+
 Tags:
 
-    #mac 
+    #mac #linux
