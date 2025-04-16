@@ -28,6 +28,8 @@ breaks my flow. I have f12 mapped to dropdown a terminal meaning I can keep my I
 BUT if you use mac's desktop's it'll yank you from a fullscreen in desktop 3 back to desktop 1 if thats where you "main" desktop is. Iterm won't dropdown into 
 the current desktop - only the "main", typically desktop 1. I'm sure theres a mac way of explaining this but its a massively negative experience for my flow.
 
+Edit: I think I've fixed this by doing [this](https://gitlab.com/gnachman/iterm2/-/issues/10695#note_1267078045), which is to set `Profiles -> <profile> -> Keys -> Configure Hotkey WindowFloating Window -> Floating Window` then restart iTerm. Works well so far..
+
 *Terminal*:
 
 `wezterm` and `Iterm2` so far are the only terminals that support the Zellij `option` key (`alt` rebinding). 
