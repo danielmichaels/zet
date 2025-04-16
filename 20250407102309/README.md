@@ -30,7 +30,7 @@ the current desktop - only the "main", typically desktop 1. I'm sure theres a ma
 
 *Terminal*:
 
-`wezterm` so far is the only terminal that supports Zellij `option` key (`alt` rebinding). 
+`wezterm` and `Iterm2` so far are the only terminals that support the Zellij `option` key (`alt` rebinding). 
 
 Terminals that do not support my workflow:
 
