@@ -18,4 +18,3 @@ Prevent it from disappearing when you change focus:
 Tags:
 
     #macos #iterm
-
