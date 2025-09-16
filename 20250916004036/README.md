@@ -1,0 +1,16 @@
+# Remarkable 3.22 SSH
+
+I finally got access to 3.22 which supports handwriting search! This is great because I only use it for hand writing.
+
+It also allows the (for lack of proper wording) side panel to be snapped to the top bar instead. This unlocks a little extra writing room
+on the edges as I like to have the panel always visible.
+
+Annoyingly, 3.22 brings a new security feature; SSH disabled over Wifi by default.
+
+To enable it you have to plug it into a internet capable device (e.g. laptop), wait for it to get a new IP address and the SSH into it.
+Once in, run `rm-ssh-over-wlan on`. SSH over Wifi will now be enabled.
+
+Tags:
+
+    #remarkable
+
